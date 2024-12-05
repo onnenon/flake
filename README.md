@@ -94,7 +94,7 @@ At the moment, the photos show Flake v0.1.0 which is fully tested, but the curre
 
 # Credits
 
-Thank you to everyone who makes amazing things and publishes them for others to learn from and be inspired by; without you, Flake would probably never have happened. Huge thanks to:
+Huge thanks to:
 
 - [@foostan](https://github.com/foostan), the author of [Corne Keyboard](https://github.com/foostan/crkbd) which was my introduction to the world of ergonomic keyboards.
   
