@@ -68,11 +68,13 @@ The Flake keyboard has a so-called thumb cluster which contains 10 keys in total
 
 Flake supports both wired and wireless (Bluetooth) connection, which makes it perfect for both home usage with a PC or portable setup with a laptop, tablet, or even smartphone.
 
-To achieve both types of connectivity, each half has two USB-C ports, one on the top and one on the inner side. The side port is used to connect the halves together, and then one of them (usually the left one) can be connected to any device using the top port, which is also used to charge the keyboard.
-
 <img alt="flake s image" width="100%" src="./img/ports.webp">
 
+To achieve both types of connectivity, each half has two USB-C ports, one on the top and one on the inner side. The side port is used to connect the halves together, and then one of them (usually the left one) can be connected to any device using the top port, which is also used to charge the keyboard.
+
 > Ports on the side are used only to communicate with each other, so they can't be used to charge the keyboard or to flash the new firmware
+> 
+<img alt="flake s image" width="100%" src="./img/controller.webp">
 
 Flake is extremely thin. The keyboard body without switches and feet is a bit less than 0.8cm in height, which makes it compact and really comfortable to use, especially with low-profile switches.
 
@@ -103,6 +105,8 @@ Huge thanks to:
 - [@josefadamcik](https://github.com/josefadamcik), the author of [Sofle](https://github.com/josefadamcik/SofleKeyboard) which gave huge inspiration for the Flake's key layout.
   
 - [@petejohanson](https://github.com/petejohanson) for creating [ZMK Firmware](https://github.com/zmkfirmware/zmk) and all the [contributors](https://github.com/zmkfirmware/zmk/graphs/contributors) that make it better each day.
+
+- Everyone working on [KiCad](https://gitlab.com/kicad/code/kicad) and [FreeCAD](https://github.com/FreeCAD/FreeCAD), for creating such powerful open source tools
 
 - People from the [ZMK discord server](https://zmk.dev/community/discord/invite) for being so kind while helping me learn how to design PCB and how to debug and solve various problems.
 
