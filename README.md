@@ -1,5 +1,5 @@
 <div align="center">
-    <img alt="flake image" src="./img/flake.webp">
+    <img alt="flake image" src="./docs/img/flake.webp">
     <h3>Anywhy Flake</h3>
     <p><i>Minimalism, efficiency and comfort</i></p>
 </div>
@@ -20,11 +20,11 @@ There are several problems that the Flake keyboard solves. I'll describe those w
 
 If you take your hand and look at the fingers, you can notice that they are positioned horizontally. Now take a look at your keyboard - the keys are grouped in arrays that are shifted vertically, known as row-based stagger.
 
-<img alt="row-based stagger keyboard image" width="100%" src="./img/row_stagger.svg">
+<img alt="row-based stagger keyboard image" width="100%" src="./docs/img/row_stagger.svg">
 
 This well-known layout forces your fingers to move in a counterintuitive way. The solution to that problem is simple: we need to rearrange the keys in a more human-friendly way.
 
-<img alt="flake stagger image" width="100%" src="./img/col_stagger.svg">
+<img alt="flake stagger image" width="100%" src="./docs/img/col_stagger.svg">
 
 As you can see, Flake has what's called a column-based stagger. Because of this, keys are located in the path of natural finger movement, which results in a much more pleasant typing experience and reduced fatigue.
 
@@ -42,19 +42,19 @@ As an added bonus, we get free space right between the halves which can be occup
 
 There's a high chance that some might feel confused seeing such a small number of keys, considering user productivity is one of the priorities for Anywhy.
 
-<img alt="flake s image" width="100%" src="./img/flake.svg">
+<img alt="flake s image" width="100%" src="./docs/img/flake.svg">
 
 Indeed, Flake has fewer keys than most conventional keyboards (46 keys in total), and that's not a compromise, but a feature. A large number of keys causes hands to move around to reach further-placed keys like digits, brackets, punctuation, Backspace, Escape, etc.
 
 Having fewer keys doesn't mean less functionality. In fact, Flake is not only fully input-compatible with regular keyboards but also allows you to add more keys than most keyboards have.
 
-<img alt="config showcase image" width="100%" src="./img/config-showcase.svg">
+<img alt="config showcase image" width="100%" src="./docs/img/config-showcase.svg">
 
 By default, Flake uses [ZMK Firmware](https://zmk.dev) which provides functionality that significantly increases productivity. One of the most used features, which allows having all possible inputs with a minimal amount of keys, is [layers](https://zmk.dev/docs/keymaps#layers). They are pretty simple and work just like the well-known Shift key.
 
 For those who strive for absolute comfort and compactness, there is also Flake S with 40 keys.
 
-<img alt="flake s image" width="100%" src="./img/flake-s.svg">
+<img alt="flake s image" width="100%" src="./docs/img/flake-s.svg">
 
 The small version lacks one outer column on each of the halves to reduce pinky usage, as it is the weakest of all fingers.
 
@@ -68,13 +68,13 @@ The Flake keyboard has a so-called thumb cluster which contains 10 keys in total
 
 Flake supports both wired and wireless (Bluetooth) connection, which makes it perfect for both home usage with a PC or portable setup with a laptop, tablet, or even smartphone.
 
-<img alt="flake s image" width="100%" src="./img/ports.webp">
+<img alt="flake s image" width="100%" src="./docs/img/ports.webp">
 
 To achieve both types of connectivity, each half has two USB-C ports, one on the top and one on the inner side. The side port is used to connect the halves together, and then one of them (usually the left one) can be connected to any device using the top port, which is also used to charge the keyboard.
 
 > Ports on the side are used only to communicate with each other, so they can't be used to charge the keyboard or to flash the new firmware
 > 
-<img alt="flake s image" width="100%" src="./img/controller.webp">
+<img alt="flake s image" width="100%" src="./docs/img/controller.webp">
 
 Flake is extremely thin. The keyboard body without switches and feet is a bit less than 0.8cm in height, which makes it compact and really comfortable to use, especially with low-profile switches.
 
@@ -82,17 +82,19 @@ Flake is extremely thin. The keyboard body without switches and feet is a bit le
 
 Talking about switches, Flake is hot-swappable and supports three types of switches: the well-known Cherry MX compatible switches, low-profile Kailh Choc V1, and their newer version Choc V2.
 
-<img alt="flake s image" width="100%" src="./img/switches.webp">
+<img alt="flake s image" width="100%" src="./docs/img/switches.webp">
 
 In order to use MX Switches, the special "plate" comes with the Flake which should be placed between the board and the switches.
 
-<img alt="flake s image" width="100%" src="./img/ports_mx.webp">
+<img alt="flake s image" width="100%" src="./docs/img/ports_mx.webp">
 
 > Plates are not required for the Choc switches as they are much lower than MX switches and don't need additional enclosure height to securely sit in the board
 
-At the moment, the photos show Flake v0.1.0 which is fully tested, but the current repo's latest version is v0.1.1 which is not tested. In that update, I've changed the silkscreen and modified some edges, and I've also added PCB copper fill. Generally, these changes likely did not break anything and the PCB should work just fine. 
+At the moment, the photos show Flake v0.1.0 which is fully tested, but the current repo's latest version is v0.1.1 which is not tested. In that update, I've changed the silkscreen and modified some edges, and I've also added PCB copper fill. Generally, these changes likely did not break anything and the PCB should work just fine.
 
-> If you build one, I would be glad to receive feedback from you :)
+If you want to build Flake yourself, you can check out the [build guide](/docs/build_guide.md)
+
+> Feel free to send me your builds and keyboard reviews :)
 
 # Credits
 
