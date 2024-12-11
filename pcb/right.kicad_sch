@@ -7575,7 +7575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "axseem:ProMicro"
+		(property "Footprint" "axseem:ProMicro_SMD"
 			(at 49.53 72.39 0)
 			(effects
 				(font
