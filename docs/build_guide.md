@@ -27,4 +27,6 @@ To build the flake you need the following materials
 
 ## Build process
 
-> Work in Progress
+The first iterations of the PCB were not designed with ease of hand soldering in mind. It's definitely possible, as I've done one PCB myself, but the process was actually frustrating. I'm currently working on a new version of the PCB that will hopefully be much easier to solder with an iron.
+
+But if you're confident enough in your soldering skills, you should be able to figure out how to assemble the PCB v0.1.1. The advice I can give is to place the 1/4 of the controller's legs into the controller's mounting holes and solder it that way. Using just solder without anything inside resulted in poor pin connections for me.

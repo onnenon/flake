@@ -90,9 +90,7 @@ In order to use MX Switches, the special "plate" comes with the Flake which shou
 
 > Plates are not required for the Choc switches as they are much lower than MX switches and don't need additional enclosure height to securely sit in the board
 
-At the moment, the photos show Flake v0.1.0 which is fully tested, but the current repo's latest version is v0.1.1 which is not tested. In that update, I've changed the silkscreen and modified some edges, and I've also added PCB copper fill. Generally, these changes likely did not break anything and the PCB should work just fine.
-
-If you want to build Flake yourself, you can check out the [build guide](/docs/build_guide.md)
+Anywhy Flake v0.1.0 is fully the tested version. The most similar version this repo has is v0.1.1, where I've changed the silkscreen modified some edges, and also added PCB copper fill. So if you want to build Flake yourself, I recommend using the v0.1.1 version, as well as checking out the [build guide](/docs/build_guide.md)
 
 > Feel free to send me your builds and keyboard reviews :)
 
